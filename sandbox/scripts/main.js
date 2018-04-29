@@ -1,4 +1,5 @@
-var _scannerIsRunning = false;
+(function () {
+    var _scannerIsRunning = false;
 
     function startScanner() {
         Quagga.init({
@@ -92,8 +93,4 @@ var _scannerIsRunning = false;
         }
     }, false);
 
-    (function (args) {
-
-
-
-    })(args);
+})();
